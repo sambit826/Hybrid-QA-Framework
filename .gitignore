@@ -1,0 +1,27 @@
+
+# Environment variables and secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node.js dependencies and old generated files
+node_modules/
+
+# Test reports and results
+reports/*
+test-results/
+playwright-report/
+
+# Playwright authentication state
+auth/*.json
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
